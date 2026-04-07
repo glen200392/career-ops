@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "stages": [
+    { "id": "sourced",    "label": "Sourced",            "color": "#94a3b8" },
+    { "id": "applied",   "label": "Applied",            "color": "#60a5fa" },
+    { "id": "screened",  "label": "Phone Screen",       "color": "#a78bfa" },
+    { "id": "interview", "label": "Interview",          "color": "#f59e0b" },
+    { "id": "offer",     "label": "Offer Extended",     "color": "#34d399" },
+    { "id": "hired",     "label": "Hired",              "color": "#10b981" },
+    { "id": "rejected",  "label": "Rejected",           "color": "#f87171" },
+    { "id": "withdrawn", "label": "Candidate Withdrew", "color": "#d1d5db" }
+  ],
+  "sla_days": {
+    "sourced_to_screened": 5,
+    "screened_to_interview": 7,
+    "interview_to_offer": 5,
+    "offer_to_hire": 3
+  }
+}

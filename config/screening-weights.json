@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "description": "Scoring weights for resume screening mode (02-resume-screener). Must sum to 100.",
+  "weights": {
+    "technical_skills": 40,
+    "experience_depth": 25,
+    "leadership_impact": 20,
+    "cultural_signals": 15
+  },
+  "thresholds": {
+    "shortlist": 70,
+    "consider": 55,
+    "reject": 0
+  }
+}
